@@ -14,8 +14,8 @@ import guru.springframework.sfgpetclinic.services.OwnerService;
 import guru.springframework.sfgpetclinic.services.PetTypeService;
 import guru.springframework.sfgpetclinic.services.SpecialityService;
 import guru.springframework.sfgpetclinic.services.VetService;
-import guru.springframework.sfgpetclinic.services.map.OwnerServiceMap;
-import guru.springframework.sfgpetclinic.services.map.VetServiceMap;
+import guru.springframework.sfgpetclinic.services.map.OwnerMapService;
+import guru.springframework.sfgpetclinic.services.map.VetMapService;
 
 @Component
 public class DataLoader implements CommandLineRunner {
